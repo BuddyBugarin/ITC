@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f5f1; /* Light sage green background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.converter-container {
+    background-color: white;
+    border: 2px solid #4c6b41; /* Sage green border */
+    border-radius: 8px;
+    padding: 2rem;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #4c6b41; /* Sage green color for the heading */
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.converter-section {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+}
+
+h2 {
+    color: #4c6b41; /* Sage green for the subheadings */
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+select, input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #4c6b41; /* Sage green border for inputs */
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+button {
+    width: 100%;
+    background-color: #4c6b41; /* Sage green background for the button */
+    color: white;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #8b0000; /* Darker shade for hover effect */
+}
+
+#temp-result, #length-result {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #f4f4f4;
+    border-radius: 4px;
+    text-align: center;
+    color: #4c6b41; /* Sage green text color */
+    font-weight: bold;
+}

@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body { 
+    background-color: #f0f5f1; /* Light sage green background */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.calculator {
+    background-color: white;
+    border: 2px solid #4c6b41; /* Sage green border */
+    border-radius: 8px;
+    padding: 2rem;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #4c6b41; /* Sage green heading color */
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #4c6b41; /* Sage green label color */
+}
+
+input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #4c6b41; /* Sage green border */
+    border-radius: 4px;
+}
+
+#calculate-btn {
+    width: 100%;
+    background-color: #4c6b41; /* Sage green button background */
+    color: white;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#calculate-btn:hover {
+    background-color: #8b0000; /* Darker shade for hover effect */
+}
+
+#result {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #f4f4f4;
+    border-radius: 4px;
+    text-align: center;
+    color: #4c6b41; /* Sage green text for result */
+}
+ 
